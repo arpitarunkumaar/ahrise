@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "hw eyescream",
   "version": "1.0",
   "description": "A plain text description",
