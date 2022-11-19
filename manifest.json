@@ -9,5 +9,20 @@
   "action": {
     "default_popup": "options.html",
     "default_icon": "assets/icon60.png"
+  },
+  "host_permissions": [
+    "<all_urls>"
+   ],
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab",
+    "alarms",
+    "notifications",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
   }
+
 } 
