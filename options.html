@@ -10,3 +10,56 @@
     hello, world!
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+h1 {font family: cormamorant;}
+</style>
+<h1> Breaktime</h1>
+
+<!-- <body style="background-color:rgb(255, 178, 182);"></body> -->
+
+<label for="length">Choose a Breaktime:</label>
+
+<select id="length">
+  <option value="10 mins">10 mins</option>
+  <option value="20 mins">20 mins</option>
+  <option value="30 mins">30 mins</option>
+  <option value="45 mins">45 mins</option>
+</select>
+<br>
+
+<label for="domain">Allow access to domain tracking:</label>
+<select id="domain">
+  <option value="yes">yes</option>
+  <option value="no">no</option>
+</select>
+<br>
+
+<form action="/action_page.php" method="get">
+<label for="webpage">Visit our webpage:</label>
+<input list="webpages" name="webpage" id="webpage">
+<datalist id="webpages">
+  <option value="yes">
+  <option value="no">
+</datalist>
+<input type="submit">
+<br>
+<a href="https://cdn.vox-cdn.com/thumbor/yJuBQtYK2euiOWE3lj_dtloWkvs=/160x0:1239x607/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/46708944/manyminions.0.jpg">Visit Eyescream!</a>
+
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
