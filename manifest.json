@@ -1,12 +1,10 @@
 {
-  // Required
   "manifest_version": 2,
   "name": "hw eyescream",
   "version": "1.0",
 
-  // Recommended
   "default_locale": "en",
-  "description": "A plain text description"
+  "description": "A plain text description",
 
   "icons": {
     "16": "assets/icon16.png",
