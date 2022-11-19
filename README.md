@@ -1,6 +1,4 @@
-<p align="center">
-<a href="https://drive.google.com/file/d/1YV-UrpNL4RCdvFY6353jLp7Ih6u1kHap/view?usp=sharing" width="128"/></a
-</p>
+![alt text](https://drive.google.com/file/d/1YV-UrpNL4RCdvFY6353jLp7Ih6u1kHap/view?usp=sharing)
 
 Eyescream is a Chrome Web Extension that improves eye health for busy professionals and students. 
 
