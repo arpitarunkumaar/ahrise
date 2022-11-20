@@ -16,7 +16,7 @@
             "<all_urls>"
         ],
         "css":[
-          "options.css"
+          "index.css"
         ],
         "js": [
             "result.js"
