@@ -8,10 +8,10 @@ const createModal = element => {
     document.body.appendChild(modal);
   };
   
-  const removeModal = () => {
-    const modalElements = document.getElementsByClassName("modal");
-    Array.from(modalElements).forEach(el => el.remove());
-  };
+const removeModal = () => {
+  const modalElements = document.getElementsByClassName("modal");
+  Array.from(modalElements).forEach(el => el.remove());
+};
   
   chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message) {
