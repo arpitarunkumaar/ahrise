@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Arise",
-  "version": "1.0",
-  "description": "A plain text description",
+  "name": "Ahrise",
+  "version": "1.5",
+  "description": "Ahrise helps you take great care of your eyes.",
   "icons": {
     "60": "assets/icon60.png"
   },
@@ -10,6 +10,19 @@
     "default_popup": "options.html",
     "default_icon": "assets/icon60.png"
   },
+  "content_scripts": [
+    {
+        "matches": [
+            "<all_urls>"
+        ],
+        "css":[
+          "options.css"
+        ],
+        "js": [
+            "result.js"
+        ]
+    }
+  ],
   "host_permissions": [
     "<all_urls>"
    ],
