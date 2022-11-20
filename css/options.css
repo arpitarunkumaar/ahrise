@@ -1,11 +1,19 @@
 body{
-    width: 200vw;
-    height: 400px;
+    width: 300px;
+    height: 500px;
+    background: #f8f4f1;
+    overflow:none;
+    color:#984F2C;
+}
+
+.subheader{
+text-align: center;
 }
 
 .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
@@ -15,19 +23,18 @@ body{
     }
 }
 
-button{
-  background-color: rgba(51, 51, 51, 0.05);
-  border-radius: 8px;
+.button{
+  width: 80%;
+  border-radius:20px;
   border-width: 0;
-  color: #333333;
+  color:#984F2C;
   cursor: pointer;
   display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
   list-style: none;
-  margin: 0;
+  margin: 2%;
   padding: 10px 12px;
   text-align: center;
   transition: all 200ms;
@@ -36,4 +43,14 @@ button{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  border: 1px solid  #984F2C;
+  background-color: #f8f4f1;
+}
+
+.button:hover {
+    border: 1px solid  #984F2C;
+    border-radius: 20px;
+    cursor:pointer;
+    background-color: #984F2C;
+    color:#f8f4f1;
 }

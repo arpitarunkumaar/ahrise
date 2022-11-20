@@ -21,8 +21,7 @@
     "notifications",
     "storage"
   ],
-  "background": {
+  "background.service_worker": {
     "service_worker": "background.js"
   }
-
 } 
