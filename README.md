@@ -8,7 +8,9 @@ Ahrise is a Chrome Web Extension that improves eye health for busy professionals
 
 ✅ Local storage of data to maximize privacy 
 
-✅ Interactive exercises 
+✅ Interactive exercises and guides 
+
+✅ Brightens your day 
 
 ### How to use
 
