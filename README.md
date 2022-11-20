@@ -1,10 +1,13 @@
 ![alt text](https://github.com/arpitarunkumaar/hw-eyescream/blob/main/assets/logotransparent.png?raw=true)
 
-Eyescream is a Chrome Web Extension that improves eye health for busy professionals and students. 
+Ahrise is a Chrome Web Extension that improves eye health for busy professionals and students. 
 
 ### Features
+
 ✅ Dynamic Reminders of when to take a break 
+
 ✅ Local storage of data to maximize privacy 
+
 ✅ Interactive exercises 
 
 ### How to use
