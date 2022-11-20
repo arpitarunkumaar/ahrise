@@ -4,11 +4,11 @@
   "version": "1.5",
   "description": "Ahrise helps you take great care of your eyes.",
   "icons": {
-    "60": "assets/icon60.png"
+    "60": "icon60.png"
   },
   "action": {
     "default_popup": "options.html",
-    "default_icon": "assets/icon60.png"
+    "default_icon": "icon60.png"
   },
   "content_scripts": [
     {
