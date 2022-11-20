@@ -54,3 +54,27 @@ text-align: center;
     background-color: #984F2C;
     color:#f8f4f1;
 }
+
+.button2 {
+    width: 50%;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 2%;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border: 1px solid  #984F2C;
+    border-radius: 20px;
+    cursor:pointer;
+    background-color: #984F2C;
+    color:#f8f4f1;
+}
