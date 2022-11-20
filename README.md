@@ -16,5 +16,5 @@ Ahrise is a Chrome Web Extension that improves eye health for busy professionals
 
     1. Clone the repository
     2. Open a browser tab for `chrome://extensions` and turn on the developer mode
-    3. Point the browse button to the root/build directory
-    4. Set up your desired options
+    3. Point the browse button to the directory
+    4. Set up your desired options and enjoy serenity
